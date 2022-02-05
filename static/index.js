@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
+        if (cps <= 5) return '假粉丝？';
+        if (cps <= 8) return '也就是群里清酒的水平';
+        if (cps <= 10)  return '抽子用做了美甲的手都比你快';
+        if (cps <= 15) return '这柚子不要也罢';
         return '人？';
     }
 
